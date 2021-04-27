@@ -1,0 +1,139 @@
+* { 
+    margin:0; 
+    padding: 0;
+}
+html,body { margin: 0; height: 100%;} 
+
+.leftMenu{
+ 
+  width: 18%;
+  height:100%;
+  float: left;
+  border-right: 1.5px solid black;
+  position: fixed;
+ 
+}  
+.rightMain{
+
+width: 82%;
+height:100%;
+float: right;
+}
+.imgTitle{
+
+margin: 0 auto;
+width: 90%;
+border: 1px dotted black;
+border-radius: 50%;
+overflow: hidden;
+
+
+
+}
+#startImg{ 
+width: 100%;  
+
+}
+.ShortDescription{
+margin-top: 10px;
+text-align: center;
+}
+.menu{
+  margin-top: 80px;
+  font-size: 30px;
+}
+.menu li{
+  margin-bottom: 30px;
+  text-align: center;
+}
+.menu li:hover{
+  font-size: 40px;
+}
+.rightMenu{
+margin-top: 40px;
+margin-left: 50px;
+font-size: 30px; 
+}
+.photoTitle{
+  margin: 0 auto;
+  width: 45%;
+}
+#photo{
+  width: 100%;
+}
+.description{
+margin-top: 10px;
+text-align: center;
+}
+.blogGitgub{
+/* margin-top: 30px; */
+/* text-align: center; */
+display: flex;
+/* position: relative;
+bottom: -25%; */
+position: absolute;
+margin-left: 50%;
+left: -25%;
+top: 85%;
+}
+#github img{
+width: 45px;
+
+
+}
+#github img:hover{
+width: 50px;
+opacity: 0.6;
+}
+#blog img{
+width: 45px;
+
+
+}
+#blog img:hover{
+width: 50px;
+opacity: 0.6;  
+}
+.text{
+  font-size: 13px;
+  /* color: red; */
+  /* top : 30%;
+  opacity: 0; */
+  font-weight: bold;
+
+  position: absolute;
+  
+}
+
+#blog{
+  margin: 0 auto;
+  margin-left: 20px;
+}
+#github{
+  margin: 0 auto;
+  margin-right: 20px;
+}
+/* #blog:hover .text{
+  opacity: 1;
+}
+#github:hover .text{
+  opacity: 1;
+} */
+#property{
+  background-color:#f1f1f1;
+  text-align:center;
+  padding:10px;
+  margin-top:7px;
+  font-size:12px; 
+  margin: 0; 
+  font-weight: bold;
+}
+/* #property img{
+  width: 20px;
+} */
+.start{
+  position: fixed;
+  right: 0;
+  top: 0;
+  width: 50px;
+}
