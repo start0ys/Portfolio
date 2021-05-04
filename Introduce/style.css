@@ -2,6 +2,11 @@
     margin:0; 
     padding: 0;
 }
+body { overflow: hidden; }
+a{
+  text-decoration: none;
+  color: black;
+}
 html,body { margin: 0; height: 100%;} 
 
 .leftMenu{
@@ -15,31 +20,32 @@ html,body { margin: 0; height: 100%;}
 }  
 .rightMain{
 
-width: 82%;
-height:100%;
-float: right;
+  width: 82%;
+  /* height:100%; */
+
+  float: right;
 }
 .imgTitle{
 
-margin: 0 auto;
-width: 90%;
-border: 1px dotted black;
-border-radius: 50%;
-overflow: hidden;
+  margin: 0 auto;
+  width: 90%;
+  border: 1px dotted black;
+  border-radius: 50%;
+  overflow: hidden;
 
 
 
 }
 #startImg{ 
-width: 100%;  
+  width: 100%;  
 
 }
 .ShortDescription{
-margin-top: 10px;
-text-align: center;
+  margin-top: 10px;
+  text-align: center;
 }
 .menu{
-  margin-top: 80px;
+  margin-top: 50px;
   font-size: 30px;
 }
 .menu li{
@@ -50,20 +56,23 @@ text-align: center;
   font-size: 40px;
 }
 .rightMenu{
-margin-top: 40px;
-margin-left: 50px;
-font-size: 30px; 
+  margin-top: 40px;
+  margin-left: 50px;
+  font-size: 40px; 
 }
 .photoTitle{
   margin: 0 auto;
-  width: 45%;
+  width: 25%;
 }
 #photo{
   width: 100%;
 }
 .description{
-margin-top: 10px;
-text-align: center;
+  margin-top: 10px;
+  text-align: center;
+}
+.description p{
+  margin: 5px 0;
 }
 .blogGitgub{
 /* margin-top: 30px; */
@@ -123,10 +132,12 @@ opacity: 0.6;
   background-color:#f1f1f1;
   text-align:center;
   padding:10px;
-  margin-top:7px;
+
   font-size:12px; 
-  margin: 0; 
+
   font-weight: bold;
+  position: relative;
+
 }
 /* #property img{
   width: 20px;
@@ -136,4 +147,95 @@ opacity: 0.6;
   right: 0;
   top: 0;
   width: 50px;
+}
+
+@media screen and (max-width: 1022px) {
+  .menu{
+    margin-top: 80px;
+    font-size: 20px;
+  }
+  .menu li{
+    margin-bottom: 30px;
+    text-align: center;
+  }
+  .menu li:hover{
+    font-size: 30px;
+  }
+  #github img{
+  width: 30px;
+  
+  
+  }
+  #github img:hover{
+  width: 40px;
+  opacity: 0.6;
+  }
+  #blog img{
+  width: 30px;
+  
+  
+  }
+  #blog img:hover{
+  width: 40px;
+  opacity: 0.6;  
+  }
+  .text{
+    display: none;
+    
+  }
+  
+
+}
+
+/* skill */
+
+.personality{
+  margin-left: 50px;
+  margin-top: 50px;
+}
+.personality li{
+  font-size: 18px;
+}
+.personality p{
+  margin: 5px 0;
+  margin-left: 50px;
+}
+.skill h2{
+  margin-top: 13px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  margin-bottom: 10px;
+  /* font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; */
+  /* margin-left: 50px; */
+}
+.skill p{
+  margin-left: 30px;
+}
+.skill b{
+  color: rgb(87, 87, 87);
+  /* color: gray; */
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.bottom{
+  clear: both;
+  bottom: 0;
+}
+
+#introduce{
+  height:100vh;
+ 
+}
+#aboutMe{
+  height:100vh;
+
+}
+#skills{
+  height:100vh;
+
+}
+#project{
+  height:100vh;
+
+}
+.blank{
+  height: 0;
 }
